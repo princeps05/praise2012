@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# version xxxxxxx
+
+CACHE:
+
+# css files
+css/jquery.mobile-1.3.2.min.css
+
+# js files
+js/hashmap.js
+js/jquery-2.0.3.js
+js/jquery.mobile-1.3.2.js
+js/kakao.link.min.js
+js/energize.js
+
+# img files
+http://vespasiani.cdn3.cafe24.com/dure522.jpg
+http://vespasiani.cdn3.cafe24.com/dure523.jpg
+http://vespasiani.cdn3.cafe24.com/dure524.jpg
+
+css/images/kakao_btn_small.png
+css/images/pa.jpg
+
+FALLBACK:
+
+NETWORK:
+*

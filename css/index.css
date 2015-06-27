@@ -1,0 +1,174 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+* {
+	/* prevent callout when holding tap on links (the native dialog that comes up) */
+  -webkit-touch-callout: none; 
+
+  /* prevent webkit from resizing text to fit */
+  -webkit-text-size-adjust: none; 
+
+  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  /* prevent copy paste, to allow, change 'none' to 'text' 
+  -webkit-user-select: none*/
+}
+
+.ui-btn-active	{
+	background-image: -webkit-gradient(linear,left top,right bottom,from( #FFFED7),to( white));
+	text-shadow: 1px 1px 1px 1px black;
+	border: 1px solid white;
+}
+
+#searchDialog .ui-header, #infoDialog .ui-header	{
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFD9FA),to( #FFD99d));
+}
+
+#searchDialog .ui-content, #infoDialog .ui-content	{
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFD9FA),to( #Fcfcfc));
+}
+
+#searchDialog .ui-footer, #infoDialog .ui-footer	{
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFD99d),to( #FFD9FA));
+	padding: 5px;
+	border: none;
+	top: -1px;	
+}
+
+#main .ui-header	{
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFD9FA),to( white));	
+}
+#title	{
+	color: #710909;
+}
+
+#searchFooter , #infoFooter	{
+	text-align: center;
+}
+#search	{
+	margin-right: 50px;
+}
+.ui-header-fixed	{
+	top: 0;
+}
+.ui-dialog-contain	{
+	min-width: 250px;
+	max-width: 430px;
+	margin-top: -14px;
+	list-style: none;
+}
+.ui-dialog-contain > .ui-content	{
+	padding: 0px 40px 13px 40px;
+}
+label.ui-input-text {
+	padding: 15px 2px 0px 8px;
+	font-weight: bold;
+}
+input.ui-input-text	{
+	padding: 4px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ui-content	{
+	overflow-x: visible;
+}
+.ui-content .ui-listview	{
+	margin: 10px;
+}
+
+h6	{
+	height: 14px;
+}
+#dawnPraiseVideo	{
+	padding: 2px;
+}
+
+#infoContent	{
+	padding: 14px 20px 14px 35px;
+}
+
+#resultlist	{
+	margin-left: 25px;	
+}
+#resultlist	li	{
+	font-size: large;
+	margin-bottom: 14px;
+}
+
+#recommand	{
+	list-style: none;
+	margin-top: 15px;
+}
+#recommand img	{
+	margin-right: 8px;
+}
+
+#youtubeVideoLink	{
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	font-size: large;
+	margin: 8px auto 14px;
+	background: #eaeaea;
+}
+
+#infoBtn	{
+	margin-right: 0.5%;
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFFFFF),to( #FFD99d));
+}
+#indexListBtn	{
+	margin-left: 0.5%;	
+	background-image: -webkit-gradient(linear,left top, right bottom,from( #FFFFFF),to( #DFD9FA));
+}
+
+.zoomIn	{
+	display: block;
+	width: 170%;
+}
+.zoomOut	{
+	display: block;	
+	width: 100%;	
+}
+
+.hideImage	{
+	display: none;
+}
+
+.showResultList	{
+	display: block;
+}
+.hideResultList	{
+	display: none;
+}
+
+.showYoutubeVideoLink	{
+	display: block;
+}
+.hideYoutubeVideoLink	{
+	display: none;
+}
+
+.showDawnPraiseVideo	{
+	display: block;
+}
+.hideDawnPraiseVideo	{
+	display: none;
+}
+
+#wrapper, #main	{
+	background-image: url("./images/pa.jpg");
+	background-size: cover;
+}
+
+.search	{
+	color: #00415E;
+}
